@@ -1,6 +1,6 @@
 import sys
 import importlib
-
+from ssg import hooks
 from pathlib import Path
 
 def load_module(directory, name):
